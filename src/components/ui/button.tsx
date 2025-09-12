@@ -15,6 +15,12 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        hero: "bg-ai-gradient text-white shadow-lg hover:shadow-xl hover:animate-glow transition-all duration-300 font-semibold",
+        platform: "bg-glass border border-glass-border text-foreground hover:bg-glass-bg/60 backdrop-blur-md transition-all duration-300",
+        instagram: "bg-instagram-gradient text-white hover:shadow-lg hover:shadow-instagram-start/30 transition-all duration-300",
+        youtube: "bg-youtube text-white hover:shadow-lg hover:shadow-youtube/30 transition-all duration-300",
+        linkedin: "bg-linkedin text-white hover:shadow-lg hover:shadow-linkedin/30 transition-all duration-300",
+        copy: "bg-muted text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-200",
       },
       size: {
         default: "h-10 px-4 py-2",
